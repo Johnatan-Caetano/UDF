@@ -1,0 +1,4 @@
+# 2. Escreva um programa que solicite ao usuário um número inteiro e ao final apresente na tela
+# o número informado pelo usuário do programa
+a = input ("Escreva um número inteiro: ")
+print(a)
