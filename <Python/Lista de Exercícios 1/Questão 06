@@ -1,0 +1,6 @@
+# 5. Escreva um programa que solicite ao usuário um número real e ao final apresente na tela o
+# número informado formatado com duas casas decimais da seguinte forma: "Você informou
+# o numero X.YY"
+a = input ("Escreva um número: ")
+a = float (a)
+print ("Voce informou o número: %.2f"% a)
