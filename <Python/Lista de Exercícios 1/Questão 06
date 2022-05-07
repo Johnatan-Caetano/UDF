@@ -1,0 +1,5 @@
+# 6. Escreva um programa que solicite ao usuário a temperatura em graus Celsius e ao final
+# apresente a temperatura correspondente em graus Farenheit. F = Celsius * 1.8 + 32
+a = float(input ("Escreva a temperatura em graus Celsius: "))
+b = (a * 1.8) + 32
+print ("A Temperatura:", a,"ºC em Farenheit é:", b,"ºF")
