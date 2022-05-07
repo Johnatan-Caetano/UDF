@@ -1,0 +1,7 @@
+# 4. Escreva um programa que solicite ao usuário dois números inteiros e ao final apresente na
+# tela os dois números informados da seguinte forma: "Voce informou os numeros X e Y"
+a = input ("Escreva primeiro número inteiro: ")
+b = input ("Escreva segundo número inteiro: ")
+a = int (a)
+b = int (b)
+print ("Voce informou os números: ", a , " e " ,b)
