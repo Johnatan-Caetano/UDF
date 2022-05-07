@@ -1,0 +1,6 @@
+# 10. Escreva um programa que solicite ao usuário o nome de uma verdura e uma fruta de sua
+# preferencia e ao final apresente na tela as informações digitadas pelo usuário da seguinte
+# forma: "Voce gosta de AAAAAAA e BBBBBBB"
+a = str(input("Informe a sua verdura preferida: "))
+b = str(input("Informe sua fruta preferida: "))
+print("Você gosta de", a , "e", b)
