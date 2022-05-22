@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Copa do Mundo Catar 2022</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" type="image/png" href="images/logo.png" />
+	</head>
+	<style>body{background-color: #F2F0F0;</style>
+	 <body>
+		<div class="container">
+			<div class="row mt-4">
+				<div align="center"class="col-lg-20">
+					<h1>
+						<img src="images/logofifa.png" alt="some text" width=80 height=30>
+					</h1>
+					<h2>
+						<img src="images/logo.png" alt="some text" width=60 height=80>
+						<span class="logo">World CUP Qatar 2022</span>
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					  <div class="container-fluid">
+					    <a class="navbar-brand" href="#"></a>
+					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					      <span class="navbar-toggler-icon"></span>
+					    </button>
+					    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					        <li class="nav-item">
+					          <a class="nav-link active" aria-current="page" href="#">Home</a>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link" href="#">O campeonato</a>
+					        </li>
+					        <li class="nav-item dropdown">
+					          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Seleções
+					          </a>
+					          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					            <li><a class="dropdown-item" href="#">Seleções Classificadas</a></li>
+					            <li><a class="dropdown-item" href="#">Convocações</a></li>
+					            <li><a class="dropdown-item" href="#">Maiores vencedoras</a></li>
+					            <li><a class="dropdown-item" href="#">Equipes estreantes</a></li>
+					          </ul>
+					        </li>
+					        <li class="nav-item dropdown">
+					          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					            Atletas homenageados
+					          </a>
+					          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          	<li><a class="dropdown-item" href="#">África</a></li>
+					          	<li><a class="dropdown-item" href="#">Ásia</a></li>
+					            <li><a class="dropdown-item" href="#">América do Norte</a></li>
+					            <li><a class="dropdown-item" href="#">América Central</a></li>
+					            <li><a class="dropdown-item" href="#">América do Sul</a></li>
+					            <li><a class="dropdown-item" href="#">Europa</a></li>
+					            <li><a class="dropdown-item" href="#">Oceania</a></li>
+					          </ul>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link" href="#">Ranking Mundial</a>
+					        </li>
+					        <li class="nav-item">
+					          <a class="nav-link" href="#">Estádios</a>
+					        </li>
+				      </ul>
+					      <form class="d-flex">
+					        <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+					        <button class="btn btn-secondary" type="submit">
+					        	<i class="fa fa-search"></i>
+					        </button>
+					      </form>
+					    </div>
+					  </div>
+					</nav>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-lg-8">					
+					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-indicators">
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+					  </div>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="images/1.jpg" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Estádios</h5>
+					        <p>Conheça todos os estádios presentes no campeonato</p>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/2.jpg" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Sorteio e Datas</h5>
+					        <p>Acompanhe o resultado do sorteio dos jogos e as datas de cada jogo</p>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/3.jpg" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Mascote</h5>
+					        <p>Quem é La'eeb? O novo mascote da copa no Qatar</p>
+					      </div>
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/4.jpg" class="d-block w-100" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Seleções</h5>
+					        <p>Conheça as seleções classificadas para a FIFA World Cup 2022</p>
+					      </div>
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="accordion" id="accordionExample">
+					  <div class="accordion-item">
+					    <h2 class="accordion-header" id="headingOne">
+					      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					        Conselho da FIFA
+					      </button>
+					    </h2>
+					    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+					      <div class="accordion-body">
+					        <strong>A composição final do Conselho da FIFA será composta por 37 membros: um Presidente, eleito pelo Congresso da FIFA; oito vice-presidentes e outros 28 membros eleitos pelas associações membros – cada um para um mandato de quatro anos. Um mínimo de um representante do sexo feminino deve ser eleito por confederação. O Presidente e os membros do Conselho podem servir por no máximo três mandatos (seguidos ou não).
+					      </div>
+					    </div>
+					  </div>
+					  <div class="accordion-item">
+					    <h2 class="accordion-header" id="headingTwo">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					        O torneio mais prestigiado do mundo.
+					      </button>
+					    </h2>
+					    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+					      <div class="accordion-body">
+					        <strong>Acontecendo quadrienalmente, a Copa do Mundo Masculina da FIFA™ vê 32 nações competirem entre si pelo prêmio. Com caminhos de qualificação continentais levando a um emocionante evento final, ele reúne os fãs em torno da paixão e do amor pelo jogo.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="accordion-item">
+					    <h2 class="accordion-header" id="headingThree">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					        Ingressos
+					      </button>
+					    </h2>
+					    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+					      <div class="accordion-body">
+					        <strong>O período de vendas do sorteio de seleção aleatória da Fase de Vendas (2) para os ingressos da Copa do Mundo da FIFA Qatar 2022™ está encerrado e, portanto, os pedidos de ingressos não podem mais ser enviados, alterados ou retirados.
+
+Os solicitantes de ingressos serão notificados do resultado de suas solicitações de ingressos por e-mail até 31 de maio de 2022.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="accordion-item">
+					    <h2 class="accordion-header" id="headingFour">
+					      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+					        O que é a Fundação FIFA?
+					      </button>
+					    </h2>
+					    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+					      <div class="accordion-body">
+					        <strong>A Fundação FIFA foi criada em 2018 como uma entidade independente com o objetivo de mobilizar o poder positivo do futebol para melhorar vidas.
+
+O centro das atividades da FIFA Foundation é abordar questões sociais que afetam os jovens, capacitar mulheres e meninas a jogar futebol e realizar todo o seu potencial, reparar infraestruturas esportivas danificadas ou destruídas, apoiar a educação por meio do futebol e usar alguns dos ícones mais famosos do esporte para alcançar para milhões de pessoas em todo o mundo com mensagens positivas para um mundo mais inclusivo.  
+
+Os solicitantes de ingressos serão notificados do resultado de suas solicitações de ingressos por e-mail até 31 de maio de 2022.
+					      </div>
+					    </div>
+					  </div>
+					</div>					
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-lg-4">
+					<div class="card" style="width: 100%;">
+					  <img src="images/5.jpg.jpeg" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title text-dark">FIFA World Cup Qatar 2022™ </h5>
+					    <p class="card-text">36 árbitros, 69 árbitros assistentes e 24 árbitros de vídeo nomeados para a Copa do Mundo da FIFA Qatar 2022™</p>
+					    <button type="button" class="btn btn-outline-dark">Confira os nomes</button>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card" style="width: 100%;">
+					  <img src="images/6.jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title text-dark">FIFA World Cup Qatar 2022™</h5>
+					    <p class="card-text">FIFA lança plataforma online para eventos de exibição pública da FIFA World Cup Qatar 2022™</p>
+					    <button type="button" class="btn btn-outline-dark">Confira</button>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card" style="width: 100%;">
+					  <img src="images/7.jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title text-dark">FIFA World Cup Qatar 2022™</h5>
+					    <p class="card-text">Dez jovens promessas que poderão iluminar o Catar com seus talentos brilhantes e deixar o mundo inteiro atento, e de boca aberta com toda habilidade.</p>
+					    <button type="button" class="btn btn-outline-dark">Descubra aqui</button>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card" style="width: 100%;">
+					  <img src="images/8.jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title text-dark">FIFA World Cup Qatar 2022™</h5>
+					    <p class="card-text">Declaração da FIFA sobre denúncia feita pela Associação Chilena de Futebol</p>
+					    <button type="button" class="btn btn-outline-dark">Leia mais</button>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card" style="width: 100%;">
+					  <img src="images/9.jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title text-dark">FIFA World Cup Qatar 2022™</h5>
+					    <p class="card-text">Sede da Copa, Catar quer servir de modelo com estádios climatizados</p>
+					    <button type="button" class="btn btn-outline-dark">Leia mais</button>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card" style="width: 100%;">
+					  <img src="images/10.jpg" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 class="card-title text-dark">FIFA World Cup Qatar 2022™</h5>
+					    <p class="card-text">Quantos dias para começar a Copa do Mundo 2022? Qual dia vai começar a Copa do Mundo 2022?</p>
+					    <button type="button" class="btn btn-outline-dark">Leia mais</button>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-4"><nav class="navbar bg-red-800">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/11.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+      Confira vídeos exclusivos sobre a competição
+    </a>
+  </div>
+</nav></div>
+			<div class="row mt-4" ></div>
+			<section id="gallery">
+			<h1></h1>
+			<iframe width="350" height="200"  src="https://www.youtube.com/embed/QgdUq8pKYW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="350" height="200" src="https://www.youtube.com/embed/DeZDwIkNSp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="350" height="200" src="https://www.youtube.com/embed/3S0RHKjS1p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="350" height="200" src="https://www.youtube.com/embed/erndKMc8tWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="350" height="200" src="https://www.youtube.com/embed/YCSnfTbFU7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="350" height="200" src="https://www.youtube.com/embed/BE46ptvZzaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+		<div class="row mt-4" ></div>
+		<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Redes Sociais</a>
+      </div>
+    </div>
+  </div>
+</nav>
+		<div class="col-lg-4 mt-4" align="right">
+			<a href="#" class="btn btn-danger">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+			<a href="#" class="btn btn-primary">
+				<i class="fa-brands fa-facebook"></i>
+			</a>
+			<a href="#" class="btn btn-success">
+				<i class="fa-brands fa-spotify"></i>
+			</a>
+			<a href="#" class="btn btn-info">
+				<i class="fa-brands fa-twitter"></i>
+			</a>
+			<a href="#" class="btn btn-dark">
+				<i class="fa-brands fa-tiktok btn-dark"></i>
+			</a>
+		</div>
+		<nav class="nav">
+  			<a class="nav-link active" aria-current="page" href="#">Johnatan Caetano dos Santos</a>
+ 			<a class="nav-link" href="#">Ciência da Computação</a>
+ 	 		<a class="nav-link" href="#">UDF</a>
+		</nav>
+
+	</div>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
